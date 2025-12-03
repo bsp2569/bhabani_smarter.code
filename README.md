@@ -19,7 +19,7 @@ root/
 	•	npm or yarn
 	•	Git
 
-***Set front-end and backend in different terminals***
+***Set front-end and backend in different terminals*** <br>
 
 ## Backend:
 **Create Virtual Environment**
@@ -30,19 +30,23 @@ root/
 	venv\Scripts\activate       # Windows
 	
 
-**Install dependencies present in requirements.txt file**
+**Install dependencies present in requirements.txt file** <br>
+    
 	pip install -r requirements.txt
 
 **Run the flask app**
-python app.py
+
+	python app.py
 
 ## Frontend
 **Install dependencies**
-cd frontend
-npm install 
+	
+	cd frontend
+	npm install 
 
 **Start running**
-npm run dev
+	
+	npm run dev
 *The server wil start running at http://localhost:3000*
 
 
